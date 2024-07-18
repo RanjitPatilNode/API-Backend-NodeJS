@@ -23,6 +23,10 @@ app.get("/courses", (req, resp) => {
         {
             id: 3,
             courseName: "MERP"
+        },
+        {
+            id: 3,
+            courseName: "UI-UX"
         }
     ]
     resp.send(courses)
