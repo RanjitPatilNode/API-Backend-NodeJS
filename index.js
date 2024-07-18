@@ -10,7 +10,7 @@ const port = process.env.PORT;
 
 app.use(cors());
 
-app.get("/", (req, resp) => {
+app.get("/courses", (req, resp) => {
     const courses = [
         {
             id: 1,
